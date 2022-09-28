@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(to left,#2BED96, #1AF053);
+}
+
+.btn {
+    display: block;
+}
+
+button {
+    background-color: rgb(98, 0, 255);
+    width: 150px;
+    height: 31px;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+    font: Normal 11pt Arial;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: blue;
+    width: 158px;
+    height: 38px;
+    font: Normal 14pt Arial;
+}

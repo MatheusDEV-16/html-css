@@ -1,0 +1,10 @@
+body {
+    font: normal 12pt Arial;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+mark {
+    background-color: lime;
+    border-radius: 20px;
+}

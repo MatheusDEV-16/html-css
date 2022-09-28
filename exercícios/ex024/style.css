@@ -1,0 +1,10 @@
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to top, #3FCCB0, #00E6E2, #3D8577);
+    color: aliceblue;
+    font: Normal 14pt Arial;
+    background-attachment: fixed;
+}

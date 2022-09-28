@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.lnk" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+    <title>Segunda página</title>
+</head>
+<body>
+    <header>
+        <h1>Vídeo hospedado no server local</h1>
+    </header>
+    <section>
+        <div>
+            <video src="edit.mp4" width="560" controls></video>
+            <h1>Edit - Real Madrid campeão</h1>
+            <h1>Usei a tag vídeo para colocar mídias no site</h1>
+        </div>
+    </section>
+    <header>
+        <h1>Vídeo incorporado do YouTube</h1>
+    </header>
+    <section>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zccQ-HaYVSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h2>Edit foda do Rennant - MTG Intercetual</h2>
+        <button onclick="voltar()">Voltar para a página 1</button>
+        
+    </section>
+    <footer font: italic;><p>&copy; Powered by HTML5 and CSS3</p></footer>
+</body>
+<script>
+    function voltar() {
+        window.location.href = "index.html"
+    }
+</script>
+</html>
